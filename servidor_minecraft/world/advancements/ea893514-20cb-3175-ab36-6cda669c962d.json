@@ -1,9 +1,15 @@
 {
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2024-12-07 00:59:30 +0000"
+      "log_spam_fixer": "2024-12-07 01:54:08 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
+    "criteria": {
+      "has_porkchop": "2024-12-07 01:52:58 +0000"
+    },
+    "done": true
   },
   "minecraft:recipes/tools/wooden_axe": {
     "criteria": {
@@ -23,6 +29,24 @@
     },
     "done": false
   },
+  "minecraft:recipes/redstone/lever": {
+    "criteria": {
+      "has_cobblestone": "2024-12-07 01:53:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_stairs_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2024-12-07 01:53:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2024-12-07 01:50:20 +0000"
+    },
+    "done": true
+  },
   "incendium:technical/scroll_of_returning": {
     "criteria": {
       "log_spam_fixer": "2024-12-07 00:36:21 +0000"
@@ -31,7 +55,7 @@
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2024-12-07 00:59:30 +0000"
+      "log_spam_fixer": "2024-12-07 01:54:08 +0000"
     },
     "done": false
   },
@@ -41,11 +65,29 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stone": {
+    "criteria": {
+      "has_cobblestone": "2024-12-07 01:53:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2024-12-07 01:53:26 +0000"
+    },
+    "done": true
+  },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2024-12-07 00:59:30 +0000"
+      "log_spam_fixer": "2024-12-07 01:54:08 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/decorations/furnace": {
+    "criteria": {
+      "has_cobblestone": "2024-12-07 01:53:26 +0000"
+    },
+    "done": true
   },
   "minecraft:recipes/redstone/spruce_fence_gate": {
     "criteria": {
@@ -63,12 +105,6 @@
     },
     "done": false
   },
-  "minecraft:recipes/decorations/campfire": {
-    "criteria": {
-      "has_stick": "2024-12-07 00:45:40 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/charcoal": {
     "criteria": {
       "has_log": "2024-12-07 00:44:49 +0000"
@@ -78,6 +114,12 @@
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
       "has_planks": "2024-12-07 00:45:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_stick": "2024-12-07 00:45:40 +0000"
     },
     "done": true
   },
@@ -99,6 +141,12 @@
     },
     "done": false
   },
+  "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2024-12-07 01:53:26 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/ladder": {
     "criteria": {
       "has_stick": "2024-12-07 00:45:40 +0000"
@@ -117,9 +165,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2024-12-07 01:53:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/stone_sword": {
+    "criteria": {
+      "has_cobblestone": "2024-12-07 01:53:26 +0000"
+    },
+    "done": true
+  },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2024-12-07 00:59:30 +0000"
+      "log_spam_fixer": "2024-12-07 01:54:08 +0000"
     },
     "done": false
   },
@@ -141,6 +201,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/cobblestone_wall": {
+    "criteria": {
+      "has_cobblestone": "2024-12-07 01:53:26 +0000"
+    },
+    "done": true
+  },
   "incendium:technical/new_player": {
     "criteria": {
       "requirement": "2024-12-07 00:36:21 +0000"
@@ -159,15 +225,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/torch": {
+    "criteria": {
+      "has_stone_pickaxe": "2024-12-07 01:53:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_pickaxe": {
+    "criteria": {
+      "has_cobblestone": "2024-12-07 01:53:26 +0000"
+    },
+    "done": true
+  },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2024-12-07 00:59:30 +0000"
+      "log_spam_fixer": "2024-12-07 01:54:08 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2024-12-07 00:59:30 +0000"
+      "log_spam_fixer": "2024-12-07 01:54:08 +0000"
     },
     "done": false
   },
@@ -201,17 +279,35 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2024-12-07 01:53:26 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/wooden_sword": {
     "criteria": {
       "has_stick": "2024-12-07 00:45:40 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/tools/stone_shovel": {
+    "criteria": {
+      "has_cobblestone": "2024-12-07 01:53:26 +0000"
+    },
+    "done": true
+  },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2024-12-07 00:59:30 +0000"
+      "log_spam_fixer": "2024-12-07 01:54:08 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/tools/stone_hoe": {
+    "criteria": {
+      "has_cobblestone": "2024-12-07 01:53:26 +0000"
+    },
+    "done": true
   },
   "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
@@ -225,22 +321,27 @@
     },
     "done": true
   },
-  "incendium:technical/on_player_hurt": {
-    "criteria": {
-      "requirement": "2024-12-07 01:00:10 +0000",
-      "log_spam_fixer": "2024-12-07 00:59:30 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/spruce_slab": {
     "criteria": {
       "has_planks": "2024-12-07 00:45:28 +0000"
     },
     "done": true
   },
+  "incendium:technical/on_player_hurt": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-07 01:54:08 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
+    "criteria": {
+      "has_sugar_cane": "2024-12-07 01:50:20 +0000"
+    },
+    "done": true
+  },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2024-12-07 00:59:30 +0000"
+      "log_spam_fixer": "2024-12-07 01:54:08 +0000"
     },
     "done": false
   },
@@ -256,9 +357,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cobblestone_slab": {
+    "criteria": {
+      "has_cobblestone": "2024-12-07 01:53:26 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/spruce_stairs": {
     "criteria": {
       "has_planks": "2024-12-07 00:45:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2024-12-07 00:40:19 +0000"
     },
     "done": true
   },
@@ -268,9 +381,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/bone_meal": {
+  "minecraft:recipes/building_blocks/cobblestone_stairs": {
     "criteria": {
-      "has_bone": "2024-12-07 00:40:19 +0000"
+      "has_cobblestone": "2024-12-07 01:53:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2024-12-07 01:53:45 +0000"
     },
     "done": true
   },
@@ -310,6 +429,24 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/stone_axe": {
+    "criteria": {
+      "has_cobblestone": "2024-12-07 01:53:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
+    "criteria": {
+      "has_porkchop": "2024-12-07 01:52:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop": {
+    "criteria": {
+      "has_porkchop": "2024-12-07 01:52:58 +0000"
+    },
+    "done": true
+  },
   "incendium:technical/using/shield": {
     "criteria": {
       "log_spam_fixer": "2024-12-07 00:36:21 +0000"
@@ -318,7 +455,7 @@
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2024-12-07 00:59:30 +0000"
+      "log_spam_fixer": "2024-12-07 01:54:08 +0000"
     },
     "done": false
   },

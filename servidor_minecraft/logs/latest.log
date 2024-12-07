@@ -259,3 +259,122 @@ java.lang.NullPointerException: Cannot invoke "ptl.ajneb97.model.TimeLimitPlayer
 [01:46:17] [User Authenticator #2/INFO]: UUID of player skketik is ea893514-20cb-3175-ab36-6cda669c962d
 [01:46:17] [Server thread/INFO]: skketik joined the game
 [01:46:18] [Server thread/INFO]: skketik[/127.168.45.107:51427] logged in with entity id 1084 at ([world]-1.1797688434009816, 64.0, 31.098955488622526)
+[01:46:41] [Async Chat Thread - #0/INFO]: world MEMBER wdestructrrex: tu eress???
+[01:46:44] [User Authenticator #2/INFO]: UUID of player ItsPeruaninxdd is f70e3762-909f-354d-b985-67af365477ce
+[01:46:44] [Paper Async Task Handler Thread - 1/INFO]: [Essentials] Created a User for ItsPeruaninxdd (f70e3762-909f-354d-b985-67af365477ce) for non Bukkit type: org.bukkit.craftbukkit.v1_18_R2.entity.CraftPlayer
+[01:46:44] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to SternalBoard v2.3.0
+java.lang.NullPointerException: Cannot invoke "ptl.ajneb97.model.TimeLimitPlayer.getCurrentTime()" because "p" is null
+	at ptl.ajneb97.managers.PlayerManager.getTimeLeft(PlayerManager.java:136) ~[PlayerTimeLimit.jar:?]
+	at ptl.ajneb97.api.PlayerTimeLimitAPI.getTimeLeft(PlayerTimeLimitAPI.java:21) ~[PlayerTimeLimit.jar:?]
+	at ptl.ajneb97.api.ExpansionPlayerTimeLimit.onPlaceholderRequest(ExpansionPlayerTimeLimit.java:107) ~[PlayerTimeLimit.jar:?]
+	at me.clip.placeholderapi.PlaceholderHook.onRequest(PlaceholderHook.java:32) ~[PlaceholderAPI-2.11.6.jar:?]
+	at me.clip.placeholderapi.replacer.CharsReplacer.apply(CharsReplacer.java:119) ~[PlaceholderAPI-2.11.6.jar:?]
+	at me.clip.placeholderapi.PlaceholderAPI.setPlaceholders(PlaceholderAPI.java:71) ~[PlaceholderAPI-2.11.6.jar:?]
+	at me.clip.placeholderapi.PlaceholderAPI.setPlaceholders(PlaceholderAPI.java:99) ~[PlaceholderAPI-2.11.6.jar:?]
+	at com.xism4.sternalboard.utils.TextUtils.processPlaceholders(TextUtils.java:62) ~[SternalBoard-2.3.0-all.jar:?]
+	at com.xism4.sternalboard.Scoreboards.lambda$updateFromSection$0(Scoreboards.java:28) ~[SternalBoard-2.3.0-all.jar:?]
+	at java.util.ArrayList.replaceAllRange(ArrayList.java:1712) ~[?:?]
+	at java.util.ArrayList.replaceAll(ArrayList.java:1702) ~[?:?]
+	at com.xism4.sternalboard.Scoreboards.updateFromSection(Scoreboards.java:28) ~[SternalBoard-2.3.0-all.jar:?]
+	at com.xism4.sternalboard.managers.ScoreboardManager.setScoreboard(ScoreboardManager.java:75) ~[SternalBoard-2.3.0-all.jar:?]
+	at com.xism4.sternalboard.managers.ScoreboardManager.setBoardAfterCheck(ScoreboardManager.java:159) ~[SternalBoard-2.3.0-all.jar:?]
+	at com.xism4.sternalboard.listeners.ScoreboardListener.onJoin(ScoreboardListener.java:19) ~[SternalBoard-2.3.0-all.jar:?]
+	at com.destroystokyo.paper.event.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:37) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:git-Paper-388]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:669) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.players.PlayerList.postChunkLoadJoin(PlayerList.java:363) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.players.PlayerList.lambda$placeNewPlayer$1(PlayerList.java:305) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.tick(ServerGamePacketListenerImpl.java:305) ~[?:?]
+	at net.minecraft.network.Connection.tick(Connection.java:567) ~[?:?]
+	at net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:231) ~[?:?]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1623) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:483) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1456) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1226) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316) ~[paper-1.18.2.jar:git-Paper-388]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[01:46:44] [Server thread/INFO]: Set [vidas] for ItsPeruaninxdd to 6
+[01:46:44] [Server thread/INFO]: ItsPeruaninxdd joined the game
+[01:46:44] [Server thread/INFO]: ItsPeruaninxdd[/127.156.157.12:39139] logged in with entity id 1151 at ([world]-3.0, 64.0, 25.0)
+[01:47:01] [Async Chat Thread - #0/INFO]: world [Rosa] skketik: soy de un ex de trilce
+[01:47:19] [Server thread/INFO]: ItsPeruaninxdd lost connection: Disconnected
+[01:47:19] [Server thread/INFO]: [PvPManager] ItsPeruaninxdd tried to escape combat and died!
+[01:47:19] [Server thread/INFO]: Removed 1 from [vidas] for ItsPeruaninxdd (now 5)
+[01:47:19] [Server thread/INFO]: Combat ItsPeruaninxdd was slain by Combat skketik
+[01:47:19] [Server thread/INFO]: ItsPeruaninxdd left the game
+[01:47:24] [Async Chat Thread - #0/INFO]: world MEMBER wdestructrrex: quien eres
+[01:47:36] [Async Chat Thread - #0/INFO]: world [Rosa] skketik: era de creative
+[01:47:39] [User Authenticator #2/INFO]: UUID of player Sentry08 is e7ed7986-f01c-3c14-8a47-1beedf6696cf
+[01:47:39] [Paper Async Task Handler Thread - 1/INFO]: [Essentials] Created a User for Sentry08 (e7ed7986-f01c-3c14-8a47-1beedf6696cf) for non Bukkit type: org.bukkit.craftbukkit.v1_18_R2.entity.CraftPlayer
+[01:47:39] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to SternalBoard v2.3.0
+java.lang.NullPointerException: Cannot invoke "ptl.ajneb97.model.TimeLimitPlayer.getCurrentTime()" because "p" is null
+	at ptl.ajneb97.managers.PlayerManager.getTimeLeft(PlayerManager.java:136) ~[PlayerTimeLimit.jar:?]
+	at ptl.ajneb97.api.PlayerTimeLimitAPI.getTimeLeft(PlayerTimeLimitAPI.java:21) ~[PlayerTimeLimit.jar:?]
+	at ptl.ajneb97.api.ExpansionPlayerTimeLimit.onPlaceholderRequest(ExpansionPlayerTimeLimit.java:107) ~[PlayerTimeLimit.jar:?]
+	at me.clip.placeholderapi.PlaceholderHook.onRequest(PlaceholderHook.java:32) ~[PlaceholderAPI-2.11.6.jar:?]
+	at me.clip.placeholderapi.replacer.CharsReplacer.apply(CharsReplacer.java:119) ~[PlaceholderAPI-2.11.6.jar:?]
+	at me.clip.placeholderapi.PlaceholderAPI.setPlaceholders(PlaceholderAPI.java:71) ~[PlaceholderAPI-2.11.6.jar:?]
+	at me.clip.placeholderapi.PlaceholderAPI.setPlaceholders(PlaceholderAPI.java:99) ~[PlaceholderAPI-2.11.6.jar:?]
+	at com.xism4.sternalboard.utils.TextUtils.processPlaceholders(TextUtils.java:62) ~[SternalBoard-2.3.0-all.jar:?]
+	at com.xism4.sternalboard.Scoreboards.lambda$updateFromSection$0(Scoreboards.java:28) ~[SternalBoard-2.3.0-all.jar:?]
+	at java.util.ArrayList.replaceAllRange(ArrayList.java:1712) ~[?:?]
+	at java.util.ArrayList.replaceAll(ArrayList.java:1702) ~[?:?]
+	at com.xism4.sternalboard.Scoreboards.updateFromSection(Scoreboards.java:28) ~[SternalBoard-2.3.0-all.jar:?]
+	at com.xism4.sternalboard.managers.ScoreboardManager.setScoreboard(ScoreboardManager.java:75) ~[SternalBoard-2.3.0-all.jar:?]
+	at com.xism4.sternalboard.managers.ScoreboardManager.setBoardAfterCheck(ScoreboardManager.java:159) ~[SternalBoard-2.3.0-all.jar:?]
+	at com.xism4.sternalboard.listeners.ScoreboardListener.onJoin(ScoreboardListener.java:19) ~[SternalBoard-2.3.0-all.jar:?]
+	at com.destroystokyo.paper.event.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:37) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:git-Paper-388]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:669) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.players.PlayerList.postChunkLoadJoin(PlayerList.java:363) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.players.PlayerList.lambda$placeNewPlayer$1(PlayerList.java:305) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.tick(ServerGamePacketListenerImpl.java:305) ~[?:?]
+	at net.minecraft.network.Connection.tick(Connection.java:567) ~[?:?]
+	at net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:231) ~[?:?]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1623) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:483) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1456) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1226) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316) ~[paper-1.18.2.jar:git-Paper-388]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[01:47:39] [Server thread/INFO]: Set [vidas] for Sentry08 to 6
+[01:47:39] [Server thread/INFO]: Sentry08 joined the game
+[01:47:39] [Server thread/INFO]: Sentry08[/127.120.222.10:33933] logged in with entity id 1264 at ([world]-3.0, 64.0, 25.0)
+[01:48:21] [Async Chat Thread - #0/INFO]: world MEMBER wdestructrrex: cabro el que se pelea
+[01:48:23] [Server thread/INFO]: Player OFF does not exist or is offline!
+[01:48:40] [Server thread/INFO]: Removed 1 from [vidas] for wdestructrrex (now 5)
+[01:48:40] [Server thread/INFO]: Combat wdestructrrex was slain by Combat Sentry08
+[01:48:44] [Server thread/INFO]: Removed 1 from [vidas] for Sentry08 (now 5)
+[01:48:44] [Server thread/INFO]: Combat Sentry08 was slain by Combat skketik
+[01:48:53] [Async Chat Thread - #0/INFO]: world MEMBER wdestructrrex: xd
+[01:48:57] [Server thread/INFO]: skketik lost connection: Disconnected
+[01:48:57] [Server thread/INFO]: skketik left the game
+[01:49:04] [Server thread/INFO]: Made ItsPeruaninxdd a server operator
+[01:49:08] [Async Chat Thread - #0/INFO]: world MEMBER wdestructrrex: solo nos queda 5
+[01:49:09] [User Authenticator #3/INFO]: UUID of player skketik is ea893514-20cb-3175-ab36-6cda669c962d
+[01:49:09] [Server thread/INFO]: skketik joined the game
+[01:49:09] [Server thread/INFO]: skketik[/127.168.45.107:60029] logged in with entity id 1421 at ([world]-4.975754015260084, 64.0, 21.662904194935464)
+[01:49:13] [User Authenticator #3/INFO]: UUID of player ItsPeruaninxdd is f70e3762-909f-354d-b985-67af365477ce
+[01:49:13] [Server thread/INFO]: ItsPeruaninxdd joined the game
+[01:49:13] [Server thread/INFO]: ItsPeruaninxdd[/127.156.157.12:32963] logged in with entity id 1423 at ([world]-6.699999988079071, 64.0, 34.69999998807907)
+[01:49:33] [Server thread/INFO]: ItsPeruaninxdd issued server command: /gamemode creative
+[01:50:30] [Async Chat Thread - #1/INFO]: world MEMBER wdestructrrex: lo vas a matar imbecil
+[01:50:35] [Server thread/INFO]: Removed 1 from [vidas] for Sentry08 (now 4)
+[01:50:35] [Server thread/INFO]: Sentry08 drowned
+[01:51:40] [Async Chat Thread - #2/INFO]: world MEMBER wdestructrrex: sergio
+[01:53:03] [Server thread/INFO]: ItsPeruaninxdd issued server command: /vanisg
+[01:53:07] [Server thread/INFO]: ItsPeruaninxdd issued server command: /vanish ItsPeruaninxdd
+[01:53:13] [Server thread/INFO]: ItsPeruaninxdd issued server command: /tp wdestructrrex
+[01:53:26] [Server thread/INFO]: skketik has made the advancement [Stone Age]
+[01:53:45] [Server thread/INFO]: skketik has made the advancement [Getting an Upgrade]
+[01:54:02] [Server thread/INFO]: Sentry08 has made the advancement [Stone Age]
+[01:54:03] [Server thread/INFO]: ItsPeruaninxdd lost connection: Disconnected
+[01:54:03] [Server thread/INFO]: ItsPeruaninxdd left the game
+[01:54:21] [Server thread/INFO]: wdestructrrex has made the advancement [Stone Age]
+[01:54:32] [Server thread/INFO]: skketik lost connection: Disconnected
+[01:54:32] [Server thread/INFO]: skketik left the game
+[01:54:56] [Server thread/INFO]: wdestructrrex has made the advancement [Getting an Upgrade]
+[01:54:56] [Server thread/INFO]: Sentry08 has made the advancement [Getting an Upgrade]
+[01:55:09] [Server thread/INFO]: Sentry08 has made the advancement [Monster Hunter]
