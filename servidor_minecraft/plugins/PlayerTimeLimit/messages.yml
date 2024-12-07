@@ -1,8 +1,8 @@
 prefix: '&8[&bPlayerTime&cLimit&8] '
 commandReload: '&aConfig reloaded!'
-noPermissions: '&cYou don''t have permissions.'
-bossBarMessage: '&7You have &e%time% &7of time left to play on the server.'
-actionBarMessage: '&7You have &e%time% &7of time left to play on the server.'
+noPermissions: '&cNo tienes permisos.'
+bossBarMessage: '&7Tienes &e%time% &7restante para jugar en el servidor.'
+actionBarMessage: '&7Tienes &e%time% &7restante para jugar en el servidor.'
 messageEnabled: '&7You have &aenabled &7time limit information message.'
 messageDisabled: '&7You have &cdisabled &7time limit information message.'
 playerDoesNotExists: '&cThat player doesn''t exists.'
@@ -12,21 +12,13 @@ timeHours: h
 timeDays: d
 timeInfinite: ∞
 kickMessage:
-- '&c&lKICKED FROM THE SERVER!'
-- '&7You were kicked since you run out of playtime for today.'
-- '&7Come tomorrow to continue playing!'
-- ''
-- '&7Discord: &bdiscord.myserver.com'
-- '&7Buy a &aRANK &7to get more time!'
-- '&astore.myserver.com'
+- '&c&lSe te acabo el tiempo :)'
+- '&7Te echaron porque te quedaste sin tiempo de juego para hoy.'
+- '&7¡Ven mañana a seguir jugando!'
 joinErrorMessage:
 - '&c&lERROR!'
-- '&7You run out of playtime for today. Come tomorrow'
-- '&7to continue playing!'
-- ''
-- '&7Discord: &bdiscord.myserver.com'
-- '&7Buy a &aRANK &7to get more time!'
-- '&astore.myserver.com'
+- '&7Te quedas sin tiempo de juego para hoy. Ven mañana'
+- '&7para seguir jugando!'
 infoCommandMessage:
 - '&c&m                                          '
 - '&7Exact time when playtimes will be reset:'

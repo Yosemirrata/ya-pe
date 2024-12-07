@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.168.45.107
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1733533213978
+  login: 1733532000973
+money: '0'
+last-account-name: skketik
+logoutlocation:
+  world: f9e1ee46-359f-423f-937a-098adcb7763c
+  world-name: world
+  x: -1.1797688434009816
+  y: 64.0
+  z: 31.098955488622526
+  yaw: 162.58436584472656
+  pitch: 25.73074722290039
+lastlocation:
+  world: f9e1ee46-359f-423f-937a-098adcb7763c
+  world-name: world
+  x: -2.4587287336402524
+  y: 63.0
+  z: 37.569611191805684
+  yaw: -163.84033203125
+  pitch: 15.7581205368042

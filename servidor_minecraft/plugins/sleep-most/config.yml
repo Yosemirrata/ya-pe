@@ -20,7 +20,7 @@ sleep:
     enabled: true
     calculation-method: percentage
     percentage-required: 0.5
-    players-required: 5
+    players-required: 1
     mob-no-target: true
     use-exempt: false
     use-afk: false

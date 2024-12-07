@@ -60,3 +60,4 @@ rankup:
   buy_command:
     enabled: false
     command: say %playername% just bought the rank %rankname%
+version: 1.10.10

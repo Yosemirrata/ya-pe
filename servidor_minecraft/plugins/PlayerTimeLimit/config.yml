@@ -11,25 +11,25 @@ information_message_enabled_by_default: true
 data_save_time: 5
 action_bar: false
 boss_bar:
-  enabled: true
+  enabled: false
   color: RED
   style: SEGMENTED_10
 time_limits:
-  default: 3600
-  vip: 7200
+  default: 43200
+  vip: 10800
   op: 0
 notification:
   '60':
     message:
     - ''
-    - '{centered}&c&lWARNING!'
-    - '{centered}&cYou have &71 minute &cleft to play on the server.'
+    - '{centered}&c&l¡ADVERTENCIA!'
+    - '{centered}&cTienes &71 minuto &crestante para jugar en el servidor.'
     - ''
   '30':
     message:
     - ''
-    - '{centered}&c&lWARNING!'
-    - '{centered}&cYou have &730 seconds &cleft to play on the server.'
+    - '{centered}&c&l¡ADVERTENCIA!'
+    - '{centered}&cTienes &730 segundos &crestante para jugar en el servidor.'
     - ''
 Data:
-  next_millis_reset: 1733616000403
+  next_millis_reset: 1733616000128

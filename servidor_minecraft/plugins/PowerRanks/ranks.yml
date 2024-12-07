@@ -11,6 +11,19 @@ Moderator:
   buyCommand: ''
   prefix: '[gradient=#9d1dff,#e22581]MODERATOR[/gradient]'
   default: false
+Amarillo:
+  permissions: []
+  inheritances: []
+  weight: 0
+  namecolor: ''
+  suffix: ''
+  chatcolor: ''
+  buyableRanks: []
+  buyCost: 0.0
+  buyDescription: ''
+  buyCommand: ''
+  prefix: '[&7Amarillo&r]'
+  default: false
 Owner:
   permissions: []
   inheritances: []
@@ -23,6 +36,58 @@ Owner:
   buyDescription: ''
   buyCommand: ''
   prefix: '[gradient=#ff00ff,#33ccff]OWNER[/gradient]'
+  default: false
+Gris:
+  permissions: []
+  inheritances: []
+  weight: 0
+  namecolor: ''
+  suffix: ''
+  chatcolor: ''
+  buyableRanks: []
+  buyCost: 0.0
+  buyDescription: ''
+  buyCommand: ''
+  prefix: '[&7Gris&r]'
+  default: false
+Rojo:
+  permissions: []
+  inheritances: []
+  weight: 0
+  namecolor: ''
+  suffix: ''
+  chatcolor: ''
+  buyableRanks: []
+  buyCost: 0.0
+  buyDescription: ''
+  buyCommand: ''
+  prefix: '[&7Rojo&r]'
+  default: false
+Negro:
+  permissions: []
+  inheritances: []
+  weight: 0
+  namecolor: ''
+  suffix: ''
+  chatcolor: ''
+  buyableRanks: []
+  buyCost: 0.0
+  buyDescription: ''
+  buyCommand: ''
+  prefix: '[&7Negro&r]'
+  default: false
+Morado:
+  permissions: []
+  inheritances: []
+  weight: 0
+  namecolor: ''
+  suffix: ''
+  chatcolor: ''
+  buyableRanks: []
+  buyCost: 0.0
+  buyDescription: ''
+  buyCommand: ''
+  prefix: '[&7Morado&r]'
   default: false
 Admin:
   permissions: []
@@ -37,6 +102,19 @@ Admin:
   buyCommand: ''
   prefix: '[gradient=#ffff00,#ef3300]ADMIN[/gradient]'
   default: false
+Blanco:
+  permissions: []
+  inheritances: []
+  weight: 0
+  namecolor: ''
+  suffix: ''
+  chatcolor: ''
+  buyableRanks: []
+  buyCost: 0.0
+  buyDescription: ''
+  buyCommand: ''
+  prefix: '[&7Blanco&r]'
+  default: false
 Member:
   permissions: []
   inheritances: []
@@ -50,3 +128,29 @@ Member:
   buyCommand: ''
   prefix: '[gradient=#127e00,#3eaf18]MEMBER[/gradient]'
   default: true
+Rosa:
+  permissions: []
+  inheritances: []
+  weight: 0
+  namecolor: ''
+  suffix: ''
+  chatcolor: ''
+  buyableRanks: []
+  buyCost: 0.0
+  buyDescription: ''
+  buyCommand: ''
+  prefix: '[&7Rosa&r]'
+  default: false
+Azul:
+  permissions: []
+  inheritances: []
+  weight: 0
+  namecolor: ''
+  suffix: ''
+  chatcolor: ''
+  buyableRanks: []
+  buyCost: 0.0
+  buyDescription: ''
+  buyCommand: ''
+  prefix: '[&7Azul&r]'
+  default: false

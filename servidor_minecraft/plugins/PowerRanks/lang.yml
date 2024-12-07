@@ -370,3 +370,4 @@ lang:
         description: Upload your server data to the PowerRanks server for debugging
         preparing-session: '&aPreparing upload...'
         timed-out: '&cThe upload has timed out! Please try again later.'
+version: 1.10.10
