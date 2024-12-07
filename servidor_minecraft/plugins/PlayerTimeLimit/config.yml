@@ -32,4 +32,4 @@ notification:
     - '{centered}&cTienes &730 segundos &crestante para jugar en el servidor.'
     - ''
 Data:
-  next_millis_reset: 1733616000671
+  next_millis_reset: 1733616000670
