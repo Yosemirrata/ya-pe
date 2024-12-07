@@ -378,3 +378,26 @@ java.lang.NullPointerException: Cannot invoke "ptl.ajneb97.model.TimeLimitPlayer
 [01:54:56] [Server thread/INFO]: wdestructrrex has made the advancement [Getting an Upgrade]
 [01:54:56] [Server thread/INFO]: Sentry08 has made the advancement [Getting an Upgrade]
 [01:55:09] [Server thread/INFO]: Sentry08 has made the advancement [Monster Hunter]
+[01:57:08] [Server thread/INFO]: Removed 1 from [vidas] for Sentry08 (now 3)
+[01:57:08] [Server thread/INFO]: Sentry08 was poked to death by a sweet berry bush
+[01:59:40] [Server thread/WARN]: Sentry08 was kicked due to keepalive timeout!
+[01:59:40] [Server thread/INFO]: Sentry08 lost connection: Timed out
+[01:59:40] [Server thread/INFO]: Sentry08 left the game
+[02:00:14] [Server thread/WARN]: wdestructrrex was kicked due to keepalive timeout!
+[02:00:14] [Server thread/INFO]: wdestructrrex lost connection: Timed out
+[02:00:14] [Server thread/INFO]: wdestructrrex left the game
+[02:00:27] [User Authenticator #4/INFO]: UUID of player Sentry08 is e7ed7986-f01c-3c14-8a47-1beedf6696cf
+[02:00:27] [Server thread/INFO]: Sentry08 joined the game
+[02:00:27] [Server thread/INFO]: Sentry08[/127.120.222.10:45015] logged in with entity id 8270 at ([world]321.2550049588492, 126.0, -42.34807673376032)
+[02:01:06] [Server thread/INFO]: Removed 1 from [vidas] for Sentry08 (now 2)
+[02:01:06] [Server thread/INFO]: Sentry08 fell from a high place
+[02:01:12] [Server thread/INFO]: Sentry08 lost connection: Disconnected
+[02:01:12] [Server thread/INFO]: Sentry08 left the game
+[02:01:27] [User Authenticator #5/INFO]: UUID of player wdestructrrex is 6d563b7a-97a5-390a-b599-3e79e88456b4
+[02:01:27] [Server thread/INFO]: wdestructrrex joined the game
+[02:01:27] [Server thread/INFO]: wdestructrrex[/127.181.129.114:36969] logged in with entity id 8767 at ([world]42.69999998807907, 69.0, 273.4779477738807)
+[02:02:25] [Server thread/INFO]: wdestructrrex lost connection: Disconnected
+[02:02:25] [Server thread/INFO]: wdestructrrex left the game
+[02:05:09] [User Authenticator #6/INFO]: UUID of player wdestructrrex is 6d563b7a-97a5-390a-b599-3e79e88456b4
+[02:05:09] [Server thread/INFO]: wdestructrrex joined the game
+[02:05:09] [Server thread/INFO]: wdestructrrex[/127.181.129.114:40841] logged in with entity id 9095 at ([world]46.69999998807907, 64.0, 275.30000001192093)

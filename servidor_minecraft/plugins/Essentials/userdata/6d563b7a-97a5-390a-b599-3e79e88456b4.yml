@@ -16,7 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
-  login: 1733535605972
+  logout: 1733536945525
+  login: 1733537109123
 money: '0'
 last-account-name: wdestructrrex
+logoutlocation:
+  world: f9e1ee46-359f-423f-937a-098adcb7763c
+  world-name: world
+  x: 46.69999998807907
+  y: 64.0
+  z: 275.30000001192093
+  yaw: -102.14932250976562
+  pitch: 62.24985885620117

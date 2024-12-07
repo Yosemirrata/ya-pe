@@ -16,7 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
-  login: 1733536059569
+  logout: 1733536872224
+  login: 1733536827573
 money: '0'
 last-account-name: Sentry08
+logoutlocation:
+  world: f9e1ee46-359f-423f-937a-098adcb7763c
+  world-name: world
+  x: 4.5
+  y: 63.0
+  z: 36.5
+  yaw: 2.4000003337860107
+  pitch: 0.30000004172325134
