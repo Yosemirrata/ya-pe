@@ -16,7 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
+  logout: 1733698306759
   login: 1733698110654
 money: '0'
 last-account-name: guater4feo
+logoutlocation:
+  world: f9e1ee46-359f-423f-937a-098adcb7763c
+  world-name: world
+  x: 318.83664340093566
+  y: 156.0
+  z: -46.73815709647697
+  yaw: 161.78564453125
+  pitch: 86.2499771118164
