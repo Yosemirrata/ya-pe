@@ -223,3 +223,80 @@ org.bukkit.plugin.InvalidPluginException: Unsupported API version 1.20.6
 [22:31:52] [PvPManager Worker Thread - 0/INFO]: [PvPManager] No update found
 [22:31:52] [Server thread/WARN]: UUID of added entity already exists: EntityPolarBear['Polar Bear'/199, uuid='9c03cef4-d275-41ff-a91a-17500dc616be', l='ServerLevel[world]', x=64.78, y=63.00, z=-105.47, cpos=[4, -7], tl=60560, v=false]
 [22:31:52] [Server thread/WARN]: UUID of added entity already exists: EntityWolf['Wolf'/217, uuid='9eb241ef-3a29-4325-bd35-4a9eb09d3240', l='ServerLevel[world]', x=130.25, y=66.00, z=175.25, cpos=[8, 10], tl=91013, v=false]
+[22:48:22] [User Authenticator #1/INFO]: UUID of player deprede2006 is dc8b7792-2be9-3907-a183-bc6a10479831
+[22:48:22] [Paper Async Task Handler Thread - 0/INFO]: [Essentials] Created a User for deprede2006 (dc8b7792-2be9-3907-a183-bc6a10479831) for non Bukkit type: org.bukkit.craftbukkit.v1_18_R2.entity.CraftPlayer
+[22:48:22] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to SternalBoard v2.3.0
+java.lang.NullPointerException: Cannot invoke "ptl.ajneb97.model.TimeLimitPlayer.getCurrentTime()" because "p" is null
+	at ptl.ajneb97.managers.PlayerManager.getTimeLeft(PlayerManager.java:136) ~[PlayerTimeLimit.jar:?]
+	at ptl.ajneb97.api.PlayerTimeLimitAPI.getTimeLeft(PlayerTimeLimitAPI.java:21) ~[PlayerTimeLimit.jar:?]
+	at ptl.ajneb97.api.ExpansionPlayerTimeLimit.onPlaceholderRequest(ExpansionPlayerTimeLimit.java:107) ~[PlayerTimeLimit.jar:?]
+	at me.clip.placeholderapi.PlaceholderHook.onRequest(PlaceholderHook.java:32) ~[PlaceholderAPI-2.11.6.jar:?]
+	at me.clip.placeholderapi.replacer.CharsReplacer.apply(CharsReplacer.java:119) ~[PlaceholderAPI-2.11.6.jar:?]
+	at me.clip.placeholderapi.PlaceholderAPI.setPlaceholders(PlaceholderAPI.java:71) ~[PlaceholderAPI-2.11.6.jar:?]
+	at me.clip.placeholderapi.PlaceholderAPI.setPlaceholders(PlaceholderAPI.java:99) ~[PlaceholderAPI-2.11.6.jar:?]
+	at com.xism4.sternalboard.utils.TextUtils.processPlaceholders(TextUtils.java:62) ~[SternalBoard-2.3.0-all.jar:?]
+	at com.xism4.sternalboard.Scoreboards.lambda$updateFromSection$0(Scoreboards.java:28) ~[SternalBoard-2.3.0-all.jar:?]
+	at java.util.ArrayList.replaceAllRange(ArrayList.java:1712) ~[?:?]
+	at java.util.ArrayList.replaceAll(ArrayList.java:1702) ~[?:?]
+	at com.xism4.sternalboard.Scoreboards.updateFromSection(Scoreboards.java:28) ~[SternalBoard-2.3.0-all.jar:?]
+	at com.xism4.sternalboard.managers.ScoreboardManager.setScoreboard(ScoreboardManager.java:75) ~[SternalBoard-2.3.0-all.jar:?]
+	at com.xism4.sternalboard.managers.ScoreboardManager.setBoardAfterCheck(ScoreboardManager.java:159) ~[SternalBoard-2.3.0-all.jar:?]
+	at com.xism4.sternalboard.listeners.ScoreboardListener.onJoin(ScoreboardListener.java:19) ~[SternalBoard-2.3.0-all.jar:?]
+	at com.destroystokyo.paper.event.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:37) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:git-Paper-388]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:669) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.players.PlayerList.postChunkLoadJoin(PlayerList.java:363) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.players.PlayerList.lambda$placeNewPlayer$1(PlayerList.java:305) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.tick(ServerGamePacketListenerImpl.java:305) ~[?:?]
+	at net.minecraft.network.Connection.tick(Connection.java:567) ~[?:?]
+	at net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:231) ~[?:?]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1623) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:483) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1456) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1226) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316) ~[paper-1.18.2.jar:git-Paper-388]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[22:48:22] [Server thread/INFO]: Set [vidas] for deprede2006 to 6
+[22:48:22] [Server thread/INFO]: deprede2006 joined the game
+[22:48:22] [Server thread/INFO]: deprede2006[/127.3.64.37:52491] logged in with entity id 318 at ([world]-3.0, 64.0, 25.0)
+[22:48:23] [Server thread/WARN]: UUID of added entity already exists: EntityDrowned['Drowned'/377, uuid='046177a0-7e68-4397-b74d-5e66a64e721b', l='ServerLevel[world]', x=175.39, y=46.00, z=-156.38, cpos=[10, -10], tl=19418, v=false]
+[22:48:23] [Server thread/WARN]: UUID of added entity already exists: EntityDrowned['Drowned'/380, uuid='44638fee-0253-40c0-9bc4-c94da3056e5f', l='ServerLevel[world]', x=175.27, y=47.00, z=-163.47, cpos=[10, -11], tl=19368, v=false]
+[22:48:30] [User Authenticator #1/INFO]: UUID of player guater4feo is 9ff619b0-0c0a-36ac-8799-844d1d186d94
+[22:48:30] [Paper Async Task Handler Thread - 0/INFO]: [Essentials] Created a User for guater4feo (9ff619b0-0c0a-36ac-8799-844d1d186d94) for non Bukkit type: org.bukkit.craftbukkit.v1_18_R2.entity.CraftPlayer
+[22:48:30] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to SternalBoard v2.3.0
+java.lang.NullPointerException: Cannot invoke "ptl.ajneb97.model.TimeLimitPlayer.getCurrentTime()" because "p" is null
+	at ptl.ajneb97.managers.PlayerManager.getTimeLeft(PlayerManager.java:136) ~[PlayerTimeLimit.jar:?]
+	at ptl.ajneb97.api.PlayerTimeLimitAPI.getTimeLeft(PlayerTimeLimitAPI.java:21) ~[PlayerTimeLimit.jar:?]
+	at ptl.ajneb97.api.ExpansionPlayerTimeLimit.onPlaceholderRequest(ExpansionPlayerTimeLimit.java:107) ~[PlayerTimeLimit.jar:?]
+	at me.clip.placeholderapi.PlaceholderHook.onRequest(PlaceholderHook.java:32) ~[PlaceholderAPI-2.11.6.jar:?]
+	at me.clip.placeholderapi.replacer.CharsReplacer.apply(CharsReplacer.java:119) ~[PlaceholderAPI-2.11.6.jar:?]
+	at me.clip.placeholderapi.PlaceholderAPI.setPlaceholders(PlaceholderAPI.java:71) ~[PlaceholderAPI-2.11.6.jar:?]
+	at me.clip.placeholderapi.PlaceholderAPI.setPlaceholders(PlaceholderAPI.java:99) ~[PlaceholderAPI-2.11.6.jar:?]
+	at com.xism4.sternalboard.utils.TextUtils.processPlaceholders(TextUtils.java:62) ~[SternalBoard-2.3.0-all.jar:?]
+	at com.xism4.sternalboard.Scoreboards.lambda$updateFromSection$0(Scoreboards.java:28) ~[SternalBoard-2.3.0-all.jar:?]
+	at java.util.ArrayList.replaceAllRange(ArrayList.java:1712) ~[?:?]
+	at java.util.ArrayList.replaceAll(ArrayList.java:1702) ~[?:?]
+	at com.xism4.sternalboard.Scoreboards.updateFromSection(Scoreboards.java:28) ~[SternalBoard-2.3.0-all.jar:?]
+	at com.xism4.sternalboard.managers.ScoreboardManager.setScoreboard(ScoreboardManager.java:75) ~[SternalBoard-2.3.0-all.jar:?]
+	at com.xism4.sternalboard.managers.ScoreboardManager.setBoardAfterCheck(ScoreboardManager.java:159) ~[SternalBoard-2.3.0-all.jar:?]
+	at com.xism4.sternalboard.listeners.ScoreboardListener.onJoin(ScoreboardListener.java:19) ~[SternalBoard-2.3.0-all.jar:?]
+	at com.destroystokyo.paper.event.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:37) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:git-Paper-388]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:669) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.players.PlayerList.postChunkLoadJoin(PlayerList.java:363) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.players.PlayerList.lambda$placeNewPlayer$1(PlayerList.java:305) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.tick(ServerGamePacketListenerImpl.java:305) ~[?:?]
+	at net.minecraft.network.Connection.tick(Connection.java:567) ~[?:?]
+	at net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:231) ~[?:?]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1623) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:483) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1456) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1226) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316) ~[paper-1.18.2.jar:git-Paper-388]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[22:48:30] [Server thread/INFO]: Set [vidas] for guater4feo to 6
+[22:48:30] [Server thread/INFO]: guater4feo joined the game
+[22:48:30] [Server thread/INFO]: guater4feo[/127.234.49.10:58381] logged in with entity id 405 at ([world]-3.0, 64.0, 25.0)
+[22:48:46] [Server thread/WARN]: UUID of added entity already exists: EntityDrowned['Drowned'/466, uuid='e44124ee-3671-464e-9bc5-613a646a96d5', l='ServerLevel[world]', x=208.66, y=50.00, z=-156.50, cpos=[13, -10], tl=18078, v=false]

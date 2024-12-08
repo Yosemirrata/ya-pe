@@ -3,8 +3,8 @@ Moderator:
   inheritances: []
   weight: 50
   namecolor: ''
-  suffix: ''
   chatcolor: ''
+  suffix: ''
   buyableRanks: []
   buyCost: 0.0
   buyDescription: ''
@@ -16,8 +16,8 @@ Amarillo:
   inheritances: []
   weight: 0
   namecolor: ''
-  suffix: ''
   chatcolor: ''
+  suffix: ''
   buyableRanks: []
   buyCost: 0.0
   buyDescription: ''
@@ -29,8 +29,8 @@ Owner:
   inheritances: []
   weight: 100
   namecolor: ''
-  suffix: ''
   chatcolor: ''
+  suffix: ''
   buyableRanks: []
   buyCost: 0.0
   buyDescription: ''
@@ -42,8 +42,8 @@ Gris:
   inheritances: []
   weight: 0
   namecolor: ''
-  suffix: ''
   chatcolor: ''
+  suffix: ''
   buyableRanks: []
   buyCost: 0.0
   buyDescription: ''
@@ -55,8 +55,8 @@ Rojo:
   inheritances: []
   weight: 0
   namecolor: ''
-  suffix: ''
   chatcolor: ''
+  suffix: ''
   buyableRanks: []
   buyCost: 0.0
   buyDescription: ''
@@ -68,8 +68,8 @@ Negro:
   inheritances: []
   weight: 0
   namecolor: ''
-  suffix: ''
   chatcolor: ''
+  suffix: ''
   buyableRanks: []
   buyCost: 0.0
   buyDescription: ''
@@ -81,8 +81,8 @@ Morado:
   inheritances: []
   weight: 0
   namecolor: ''
-  suffix: ''
   chatcolor: ''
+  suffix: ''
   buyableRanks: []
   buyCost: 0.0
   buyDescription: ''
@@ -94,8 +94,8 @@ Admin:
   inheritances: []
   weight: 75
   namecolor: ''
-  suffix: ''
   chatcolor: ''
+  suffix: ''
   buyableRanks: []
   buyCost: 0.0
   buyDescription: ''
@@ -107,8 +107,8 @@ Blanco:
   inheritances: []
   weight: 0
   namecolor: ''
-  suffix: ''
   chatcolor: ''
+  suffix: ''
   buyableRanks: []
   buyCost: 0.0
   buyDescription: ''
@@ -120,8 +120,8 @@ Member:
   inheritances: []
   weight: 0
   namecolor: ''
-  suffix: ''
   chatcolor: ''
+  suffix: ''
   buyableRanks: []
   buyCost: 0.0
   buyDescription: ''
@@ -133,8 +133,8 @@ Rosa:
   inheritances: []
   weight: 0
   namecolor: ''
-  suffix: ''
   chatcolor: ''
+  suffix: ''
   buyableRanks: []
   buyCost: 0.0
   buyDescription: ''
@@ -146,8 +146,8 @@ Azul:
   inheritances: []
   weight: 0
   namecolor: ''
-  suffix: ''
   chatcolor: ''
+  suffix: ''
   buyableRanks: []
   buyCost: 0.0
   buyDescription: ''
