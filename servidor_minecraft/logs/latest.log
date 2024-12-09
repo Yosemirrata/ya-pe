@@ -1,3 +1,40 @@
 [00:04:34] [Server thread/INFO]: wdestructrrex has made the advancement [Ice Bucket Challenge]
 [00:18:38] [Server thread/INFO]: wdestructrrex has made the advancement [Not Today, Thank You]
 [00:19:09] [Server thread/INFO]: wdestructrrex has made the advancement [Monster Hunter]
+[00:29:47] [User Authenticator #4/INFO]: UUID of player EsoWazin is 1e5be4cf-6170-3fbb-b55f-564d4f0921fc
+[00:29:47] [Paper Async Task Handler Thread - 5/INFO]: [Essentials] Created a User for EsoWazin (1e5be4cf-6170-3fbb-b55f-564d4f0921fc) for non Bukkit type: org.bukkit.craftbukkit.v1_18_R2.entity.CraftPlayer
+[00:29:47] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to SternalBoard v2.3.0
+java.lang.NullPointerException: Cannot invoke "ptl.ajneb97.model.TimeLimitPlayer.getCurrentTime()" because "p" is null
+	at ptl.ajneb97.managers.PlayerManager.getTimeLeft(PlayerManager.java:136) ~[PlayerTimeLimit.jar:?]
+	at ptl.ajneb97.api.PlayerTimeLimitAPI.getTimeLeft(PlayerTimeLimitAPI.java:21) ~[PlayerTimeLimit.jar:?]
+	at ptl.ajneb97.api.ExpansionPlayerTimeLimit.onPlaceholderRequest(ExpansionPlayerTimeLimit.java:107) ~[PlayerTimeLimit.jar:?]
+	at me.clip.placeholderapi.PlaceholderHook.onRequest(PlaceholderHook.java:32) ~[PlaceholderAPI-2.11.6.jar:?]
+	at me.clip.placeholderapi.replacer.CharsReplacer.apply(CharsReplacer.java:119) ~[PlaceholderAPI-2.11.6.jar:?]
+	at me.clip.placeholderapi.PlaceholderAPI.setPlaceholders(PlaceholderAPI.java:71) ~[PlaceholderAPI-2.11.6.jar:?]
+	at me.clip.placeholderapi.PlaceholderAPI.setPlaceholders(PlaceholderAPI.java:99) ~[PlaceholderAPI-2.11.6.jar:?]
+	at com.xism4.sternalboard.utils.TextUtils.processPlaceholders(TextUtils.java:62) ~[SternalBoard-2.3.0-all.jar:?]
+	at com.xism4.sternalboard.Scoreboards.lambda$updateFromSection$0(Scoreboards.java:28) ~[SternalBoard-2.3.0-all.jar:?]
+	at java.util.ArrayList.replaceAllRange(ArrayList.java:1712) ~[?:?]
+	at java.util.ArrayList.replaceAll(ArrayList.java:1702) ~[?:?]
+	at com.xism4.sternalboard.Scoreboards.updateFromSection(Scoreboards.java:28) ~[SternalBoard-2.3.0-all.jar:?]
+	at com.xism4.sternalboard.managers.ScoreboardManager.setScoreboard(ScoreboardManager.java:75) ~[SternalBoard-2.3.0-all.jar:?]
+	at com.xism4.sternalboard.managers.ScoreboardManager.setBoardAfterCheck(ScoreboardManager.java:159) ~[SternalBoard-2.3.0-all.jar:?]
+	at com.xism4.sternalboard.listeners.ScoreboardListener.onJoin(ScoreboardListener.java:19) ~[SternalBoard-2.3.0-all.jar:?]
+	at com.destroystokyo.paper.event.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:37) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:git-Paper-388]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:669) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.players.PlayerList.postChunkLoadJoin(PlayerList.java:363) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.players.PlayerList.lambda$placeNewPlayer$1(PlayerList.java:305) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.tick(ServerGamePacketListenerImpl.java:305) ~[?:?]
+	at net.minecraft.network.Connection.tick(Connection.java:567) ~[?:?]
+	at net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:231) ~[?:?]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1623) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:483) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1456) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1226) ~[paper-1.18.2.jar:git-Paper-388]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316) ~[paper-1.18.2.jar:git-Paper-388]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[00:29:47] [Server thread/INFO]: Set [vidas] for EsoWazin to 6
+[00:29:47] [Server thread/INFO]: EsoWazin joined the game
+[00:29:47] [Server thread/INFO]: EsoWazin[/127.29.162.19:60173] logged in with entity id 26775 at ([world]-3.0, 64.0, 25.0)
