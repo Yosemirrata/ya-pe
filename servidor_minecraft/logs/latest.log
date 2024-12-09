@@ -38,3 +38,13 @@ java.lang.NullPointerException: Cannot invoke "ptl.ajneb97.model.TimeLimitPlayer
 [00:29:47] [Server thread/INFO]: Set [vidas] for EsoWazin to 6
 [00:29:47] [Server thread/INFO]: EsoWazin joined the game
 [00:29:47] [Server thread/INFO]: EsoWazin[/127.29.162.19:60173] logged in with entity id 26775 at ([world]-3.0, 64.0, 25.0)
+[00:34:18] [Server thread/INFO]: EsoWazin has made the advancement [Stone Age]
+[00:34:40] [Server thread/INFO]: EsoWazin has made the advancement [Getting an Upgrade]
+[00:37:35] [Server thread/INFO]: EsoWazin has made the advancement [Monster Hunter]
+[00:38:22] [User Authenticator #5/INFO]: UUID of player deprede2006 is dc8b7792-2be9-3907-a183-bc6a10479831
+[00:38:22] [Server thread/INFO]: deprede2006 joined the game
+[00:38:22] [Server thread/INFO]: deprede2006[/127.50.33.232:58137] logged in with entity id 34060 at ([world]-61.39140237066984, 63.0, 74.84687442272289)
+[00:38:49] [Server thread/INFO]: EsoWazin has made the advancement [Take Aim]
+[00:38:54] [Server thread/INFO]: Villager EntityVillager['Fletcher'/30228, uuid='fa9f3f51-005d-447c-a917-b9e53d01cd01', l='ServerLevel[world]', x=-567.78, y=67.00, z=155.48, cpos=[-36, 9], tl=3362, v=true] died, message: 'Fletcher was shot by EsoWazin'
+[00:39:16] [Server thread/INFO]: deprede2006 lost connection: Disconnected
+[00:39:16] [Server thread/INFO]: deprede2006 left the game
