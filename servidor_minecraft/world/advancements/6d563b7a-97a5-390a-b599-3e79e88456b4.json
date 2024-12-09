@@ -31,7 +31,7 @@
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2024-12-08 23:47:50 +0000"
+      "log_spam_fixer": "2024-12-08 23:57:50 +0000"
     },
     "done": false
   },
@@ -167,6 +167,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/smooth_stone": {
+    "criteria": {
+      "has_the_recipe": "2024-12-08 23:56:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blast_furnace": {
+    "criteria": {
+      "has_smooth_stone": "2024-12-08 23:56:01 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/ladder": {
     "criteria": {
       "has_stick": "2024-12-07 01:52:55 +0000"
@@ -188,6 +200,12 @@
   "minecraft:recipes/combat/golden_sword": {
     "criteria": {
       "has_gold_ingot": "2024-12-08 23:30:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_chestplate": "2024-12-08 23:56:19 +0000"
     },
     "done": true
   },
@@ -482,6 +500,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/smooth_stone_slab": {
+    "criteria": {
+      "has_smooth_stone": "2024-12-08 23:56:01 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/magenta_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2024-12-07 02:11:46 +0000"
@@ -718,7 +742,7 @@
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2024-12-08 23:47:50 +0000"
+      "log_spam_fixer": "2024-12-08 23:57:50 +0000"
     },
     "done": false
   },
@@ -808,7 +832,7 @@
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2024-12-08 23:47:50 +0000"
+      "log_spam_fixer": "2024-12-08 23:57:50 +0000"
     },
     "done": false
   },
@@ -976,13 +1000,19 @@
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2024-12-08 23:47:50 +0000"
+      "log_spam_fixer": "2024-12-08 23:57:50 +0000"
     },
     "done": false
   },
   "minecraft:recipes/combat/golden_boots": {
     "criteria": {
       "has_gold_ingot": "2024-12-08 23:30:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
+    "criteria": {
+      "has_smooth_stone": "2024-12-08 23:56:01 +0000"
     },
     "done": true
   },
@@ -1090,7 +1120,7 @@
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2024-12-08 23:47:50 +0000"
+      "log_spam_fixer": "2024-12-08 23:57:50 +0000"
     },
     "done": false
   },
@@ -1366,7 +1396,7 @@
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2024-12-08 23:47:50 +0000"
+      "log_spam_fixer": "2024-12-08 23:57:50 +0000"
     },
     "done": false
   },
@@ -1384,7 +1414,7 @@
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2024-12-08 23:47:50 +0000"
+      "log_spam_fixer": "2024-12-08 23:57:50 +0000"
     },
     "done": false
   },
@@ -1484,7 +1514,7 @@
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2024-12-08 23:47:50 +0000"
+      "log_spam_fixer": "2024-12-08 23:57:50 +0000"
     },
     "done": false
   },
@@ -1550,7 +1580,7 @@
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2024-12-08 23:47:50 +0000"
+      "log_spam_fixer": "2024-12-08 23:57:50 +0000"
     },
     "done": false
   },
@@ -1586,7 +1616,7 @@
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "log_spam_fixer": "2024-12-08 23:47:50 +0000"
+      "log_spam_fixer": "2024-12-08 23:57:50 +0000"
     },
     "done": false
   },
